@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let caso = prompt ("Quem é você")
+switch (caso){
+    case "comum":
+        document.write(`<h1> Você é um ${caso}, volte ao trabalho </h1>`)
+        break;
+    case "gerente":
+        document.write(`<h1> Você é: ${caso}, boa tarde senhor </h1>`)
+        break;
+    case "diretor":
+        document.write(`<h1> Você é o ${caso}, bom te ver senhor </h1>`)
+        break;
+    default:
+        document.write("<h1> Quem é você? </h1>")
+        break;
+}
+    </script>
+</body>
+</html>

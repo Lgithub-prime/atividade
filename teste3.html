@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let nascimento = Number(prompt("Em que ano você nasceu?"))
+let eleição = new Date().getFullYear()
+let votar = eleição - nascimento
+if (votar >= 16 ){
+    document.write("Pode votar")
+}else{
+    document.write("Não vote")
+}
+    </script>
+</body>
+</html>

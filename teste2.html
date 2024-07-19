@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let n1 = Number(prompt("Qual é o seu número favorito ?"))
+let n2 = Number(prompt("Qual número que deteste?"))
+if (n1 > n2){
+    document.write(`O ${n1} é maior que ${n2}`)
+}else if (n1===n2){
+    document.write("Eles são iguais")
+}else{
+    document.write(`O ${n1} é menor que ${n2}`)
+}
+
+let nascimento = Number(prompt("Falando em números, em que ano você nasceu?"))
+let eleição = 2024
+let votar = eleição - nascimento
+document.write(votar)
+
+    </script>
+</body>
+</html>
